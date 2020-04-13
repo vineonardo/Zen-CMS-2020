@@ -149,7 +149,7 @@
 										</div>
 
 										<div>
-											<a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">Open</a>
+											<a href="article.php" class="uk-button uk-button-small uk-button-bordered uk-button-primary">Open</a>
 									
 											<a href="#" class="uk-icon-link uk-margin-small-left" uk-icon="more-vertical"></a>
 											<div uk-dropdown="pos:bottom-right"></div>	
@@ -176,7 +176,7 @@
 
 										<div>
 											<span uk-icon="icon:lock;ratio:1.1"></span>
-											<a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">Open</a>
+											<a href="article.php" class="uk-button uk-button-small uk-button-bordered uk-button-primary">Open</a>
 									
 											<a href="#" class="uk-icon-link uk-margin-small-left" uk-icon="more-vertical"></a>
 											<div uk-dropdown="pos:bottom-right"></div>	

@@ -3,7 +3,8 @@ Name: main.css
 Author: Vineet Sawant;
 */
 :root{
-	--green: #94C796;
+	--dark-green: #339944;
+	--green: #60A062;
 	--yellow: #FFCD89;
 	--red:  #FD7882;
 	--dark-purple: #3C3B54;
@@ -48,6 +49,9 @@ textarea,.uk-textarea,p{
 .uk-button-success{
 	background: var(--green);
 	color: #FFF;
+}
+.uk-button-success:hover{
+	background: var(--dark-green);
 }
 .uk-button,.uk-select,.uk-input,.uk-textarea,
 .uk-search-input{
@@ -181,4 +185,15 @@ textarea,.uk-textarea,p{
 .articles-list li:hover{
 	background: #FFF;
 	box-shadow: 0px 2px 15px -1px rgba(0,0,0,0.2);
+}
+.sorter-body{
+	height: 78vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.actions-toolbar-bottom{
+	position: relative;
+	border-top: 1px solid var(--smoke);
+	box-shadow: 0px -3px 6px -1px rgba(0,0,0,0.2);
+	z-index: 10;
 }
