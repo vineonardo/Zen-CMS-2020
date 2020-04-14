@@ -196,7 +196,121 @@
 									<div class="uk-text-center uk-margin-large-top uk-text-meta uk-text-bold uk-text-uppercase">No articles to select manually.</div>
 								</div>
 								<div class="uk-width-1-3 uk-margin-small-top">
-									
+									<ul class="output-list">
+										<li class="uk-grid uk-grid-collapse uk-grid-match uk-margin-bottom uk-box-shadow-small">
+											<div class="w10 uk-background-sky uk-flex uk-flex-middle uk-flex-center uk-text-bold uk-text-center"><span class="uk-h4 uk-margin-remove">1</span></div>
+											<div class="w90">
+												<div class="uk-padding-small">
+													<a href="#" class="uk-link-reset uk-text-bold uk-h5 uk-margin-bottom uk-margin-remove-top">IIT Mumbai 'gag' on protests</a>
+
+													<div class="uk-flex uk-flex-between uk-flex-bottom">
+														<div><a href="#" class="uk-text-small uk-text-primary">Education</a></div>
+														<div><a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">PIN</a></div>
+													</div>
+													<hr class="uk-hr uk-margin-small"/>
+													<div class="uk-flex uk-flex-between uk-flex-bottom uk-text-small">
+														<div><span uk-icon="icon:quote-right;ratio:0.9" class="uk-margin-small-right"></span><span class="uk-text-bold">34523523</span></div>
+														<div><span uk-icon="icon:clock;ratio:0.9" class="uk-margin-small-right"></span><span>30-01-20 03:41 AM</span></div>
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li class="uk-grid uk-grid-collapse uk-grid-match uk-margin-bottom uk-box-shadow-small">
+											<div class="w10 uk-background-sky uk-flex uk-flex-middle uk-flex-center uk-text-bold uk-text-center"><span class="uk-h4 uk-margin-remove">2</span></div>
+											<div class="w90">
+												<div class="uk-padding-small">
+													<a href="#" class="uk-link-reset uk-text-bold uk-h5 uk-margin-bottom uk-margin-remove-top">Kangana Runout makes another narcist movie, Rangoli says it deserves oscar</a>
+
+													<div class="uk-flex uk-flex-between uk-flex-bottom">
+														<div><a href="#" class="uk-text-small uk-text-primary">Entertainment</a></div>
+														<div><a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">PIN</a></div>
+													</div>
+													<hr class="uk-hr uk-margin-small"/>
+													<div class="uk-flex uk-flex-between uk-flex-bottom uk-text-small">
+														<div><span uk-icon="icon:quote-right;ratio:0.9" class="uk-margin-small-right"></span><span class="uk-text-bold">34523523</span></div>
+														<div><span uk-icon="icon:clock;ratio:0.9" class="uk-margin-small-right"></span><span>30-01-20 03:41 AM</span></div>
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li class="uk-grid uk-grid-collapse uk-grid-match uk-margin-bottom uk-box-shadow-small">
+											<div class="w10 uk-background-sky uk-flex uk-flex-middle uk-flex-center uk-text-bold uk-text-center"><span class="uk-h4 uk-margin-remove">1</span></div>
+											<div class="w90">
+												<div class="uk-padding-small">
+													<a href="#" class="uk-link-reset uk-text-bold uk-h5 uk-margin-bottom uk-margin-remove-top">IIT Mumbai 'gag' on protests</a>
+
+													<div class="uk-flex uk-flex-between uk-flex-bottom">
+														<div><a href="#" class="uk-text-small uk-text-primary">Education</a></div>
+														<div><a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">PIN</a></div>
+													</div>
+													<hr class="uk-hr uk-margin-small"/>
+													<div class="uk-flex uk-flex-between uk-flex-bottom uk-text-small">
+														<div><span uk-icon="icon:quote-right;ratio:0.9" class="uk-margin-small-right"></span><span class="uk-text-bold">34523523</span></div>
+														<div><span uk-icon="icon:clock;ratio:0.9" class="uk-margin-small-right"></span><span>30-01-20 03:41 AM</span></div>
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li class="uk-grid uk-grid-collapse uk-grid-match uk-margin-bottom uk-box-shadow-small">
+											<div class="w10 uk-background-sky uk-flex uk-flex-middle uk-flex-center uk-text-bold uk-text-center"><span class="uk-h4 uk-margin-remove">2</span></div>
+											<div class="w90">
+												<div class="uk-padding-small">
+													<a href="#" class="uk-link-reset uk-text-bold uk-h5 uk-margin-bottom uk-margin-remove-top">Kangana Runout makes another narcist movie, Rangoli says it deserves oscar</a>
+
+													<div class="uk-flex uk-flex-between uk-flex-bottom">
+														<div><a href="#" class="uk-text-small uk-text-primary">Entertainment</a></div>
+														<div><a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">PIN</a></div>
+													</div>
+													<hr class="uk-hr uk-margin-small"/>
+													<div class="uk-flex uk-flex-between uk-flex-bottom uk-text-small">
+														<div><span uk-icon="icon:quote-right;ratio:0.9" class="uk-margin-small-right"></span><span class="uk-text-bold">34523523</span></div>
+														<div><span uk-icon="icon:clock;ratio:0.9" class="uk-margin-small-right"></span><span>30-01-20 03:41 AM</span></div>
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li class="uk-grid uk-grid-collapse uk-grid-match uk-margin-bottom uk-box-shadow-small">
+											<div class="w10 uk-background-sky uk-flex uk-flex-middle uk-flex-center uk-text-bold uk-text-center"><span class="uk-h4 uk-margin-remove">1</span></div>
+											<div class="w90">
+												<div class="uk-padding-small">
+													<a href="#" class="uk-link-reset uk-text-bold uk-h5 uk-margin-bottom uk-margin-remove-top">IIT Mumbai 'gag' on protests</a>
+
+													<div class="uk-flex uk-flex-between uk-flex-bottom">
+														<div><a href="#" class="uk-text-small uk-text-primary">Education</a></div>
+														<div><a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">PIN</a></div>
+													</div>
+													<hr class="uk-hr uk-margin-small"/>
+													<div class="uk-flex uk-flex-between uk-flex-bottom uk-text-small">
+														<div><span uk-icon="icon:quote-right;ratio:0.9" class="uk-margin-small-right"></span><span class="uk-text-bold">34523523</span></div>
+														<div><span uk-icon="icon:clock;ratio:0.9" class="uk-margin-small-right"></span><span>30-01-20 03:41 AM</span></div>
+													</div>
+												</div>
+											</div>
+										</li>
+
+										<li class="uk-grid uk-grid-collapse uk-grid-match uk-margin-bottom uk-box-shadow-small">
+											<div class="w10 uk-background-sky uk-flex uk-flex-middle uk-flex-center uk-text-bold uk-text-center"><span class="uk-h4 uk-margin-remove">2</span></div>
+											<div class="w90">
+												<div class="uk-padding-small">
+													<a href="#" class="uk-link-reset uk-text-bold uk-h5 uk-margin-bottom uk-margin-remove-top">Kangana Runout makes another narcist movie, Rangoli says it deserves oscar</a>
+
+													<div class="uk-flex uk-flex-between uk-flex-bottom">
+														<div><a href="#" class="uk-text-small uk-text-primary">Entertainment</a></div>
+														<div><a href="#" class="uk-button uk-button-small uk-button-bordered uk-button-primary">PIN</a></div>
+													</div>
+													<hr class="uk-hr uk-margin-small"/>
+													<div class="uk-flex uk-flex-between uk-flex-bottom uk-text-small">
+														<div><span uk-icon="icon:quote-right;ratio:0.9" class="uk-margin-small-right"></span><span class="uk-text-bold">34523523</span></div>
+														<div><span uk-icon="icon:clock;ratio:0.9" class="uk-margin-small-right"></span><span>30-01-20 03:41 AM</span></div>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -204,13 +318,13 @@
 				</div><!-- uk-container -->	
 			</div><!-- sorter-body -->
 			<!-- bottom-toolbar -->
-			<div class="actions-toolbar-bottom uk-flex uk-flex-between uk-flex-middle" style="height: 50px">
+			<div class="actions-toolbar-bottom uk-flex uk-flex-between uk-flex-middle" style="height: 50px; padding-top: 10px">
 				<div class="uk-margin-left">
-					<button type="button" class="uk-button uk-button-danger">Delete</button>
+					<button type="button" class="uk-button uk-button-large uk-button-danger">Delete</button>
 				</div>
 				<div class="uk-margin-right">
-					<button type="button" class="uk-button uk-button-default uk-margin-small-right">Cancel</button>
-					<button type="button" class="uk-button uk-button-success">Save</button>
+					<button type="button" class="uk-button uk-button-large uk-button-default uk-margin-right">Cancel</button>
+					<button type="button" class="uk-button uk-button-large uk-button-success">Save</button>
 				</div>
 			</div>
 		</div><!-- inner div -->
