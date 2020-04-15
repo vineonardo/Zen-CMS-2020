@@ -107,6 +107,9 @@ textarea,.uk-textarea,p{
 .uk-background-sky{
 	background: var(--sky-blue);
 }
+.uk-background-green{
+	background: var(--green);
+}
 
 /* Common Styles */
 
@@ -214,3 +217,17 @@ textarea,.uk-textarea,p{
 .w70{width: 70%;}
 .w80{width: 80%;}
 .w90{width: 90%;}
+.w100{width: 100%;}
+
+.uk-badge.uk-badge-default{
+	background: var(--smoke);
+	color: var(--dark-grey);
+	border: 1px solid var(--dark-grey);
+	padding: 8px 12px;
+	min-height: 30px;
+	border-radius: 8px;
+	margin: 5px;
+}
+.uk-badge.uk-badge-default .uk-icon{
+	margin-left: 5px;
+}
