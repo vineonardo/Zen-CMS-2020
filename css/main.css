@@ -14,6 +14,7 @@ Author: Vineet Sawant;
 	--blue: #3B86FF;
 	--light-blue: #619DFF;
 	--sky-blue: #98BEFB;
+	--lightsky-blue: #DDEEFF;
 	--dark-grey: #4D4F5C;
 	--grey: #808495;
 	--smoke: #E8E9EC;
@@ -208,6 +209,11 @@ textarea,.uk-textarea,p{
 	margin: 0;
 	padding: 0;
 }
+.output-list li.uk-active .w90{
+	background: var(--lightsky-blue);
+}
+
+
 .w5{width: 5%;}
 .w10{width: 10%;}
 .w15{width: 15%;}
