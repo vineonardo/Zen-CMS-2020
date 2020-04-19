@@ -27,9 +27,9 @@
 						<div class="w30"></div>
 						<div class="w40 uk-flex uk-flex-middle uk-flex-row uk-flex-right">
 							
-							<a href="#" class="uk-text-bold uk-h5 uk-margin-remove-vertical uk-text-muted uk-text-uppercase uk-margin-small-right uk-flex uk-flex-middle"><span uk-icon="icon:info;ratio:1.0" class="uk-margin-small-right"></span><span>Properties</span></a>
+							<a href="#" class="uk-text-bold uk-h5 uk-margin-remove-vertical uk-text-muted uk-text-uppercase uk-margin-small-right uk-flex uk-flex-middle" uk-toggle="target:#modal-properties"><span uk-icon="icon:info;ratio:1.0" class="uk-margin-small-right"></span><span>Properties</span></a>
 							<div class="uk-text-bold uk-h5 uk-margin-remove-vertical uk-text-33 uk-text-uppercase">
-								<a href="" class="uk-button uk-border-pill uk-button-bordered uk-button-default"><span uk-icon="desktop" class="uk-margin-small-right"></span> Preview</a>
+								<a href="" class="uk-button uk-border-pill uk-button-bordered uk-button-default" uk-toggle="target:#modal-preview"><span uk-icon="desktop" class="uk-margin-small-right"></span> Preview</a>
 							</div>	
 						</div>
 					</div>
@@ -275,7 +275,7 @@
 			<div class="article-footer">
 				<div class="actions-toolbar-bottom uk-flex uk-flex-between uk-flex-middle">
 					<div class="uk-margin-left">
-						<button type="button" class="uk-button uk-button-danger" uk-toggle="target:#modal-cancel">Cancel</button>
+						<button type="button" class="uk-button uk-button-danger">Cancel</button>
 					</div>
 					<div class="uk-margin-left">
 						<button type="button" class="uk-button uk-button-success uk-margin-right" uk-toggle="target:#toast-save; animation: uk-animation-slide-right">Save</button>
@@ -283,19 +283,112 @@
 				</div>
 				
 				<!-- uk-model -->
-				<div id="modal-cancel" uk-modal>
-				    <div class="uk-modal-dialog uk-modal-body uk-position-relative uk-width-large">
-				        <button class="uk-modal-close uk-position-top-right uk-position-small" type="button" uk-close></button>
+				<div id="modal-preview" class="uk-modal-full" uk-modal>
+				    <div class="uk-modal-dialog uk-modal-body uk-padding-small uk-position-relative">
+				    	<button class="uk-modal-close uk-position-top-right uk-position-small" type="button" uk-close></button>
+				        <h2 class="uk-modal-title uk-margin-remove">Preview < collection name ></h2>
+				        <div class="uk-modal-body uk-padding-small">
+				        	<ul uk-tab>
+							    <li><a href="#">Mobile</a></li>
+							    <li><a href="#">Desktop</a></li>
+							    <li><a href="#">Tablet</a></li>
+							</ul>
 
-				        <h4 class="uk-h5">Are you sure you want to discard the changes?</h4>
-				        <p class="uk-text-meta">All the changes done on the collection, since the last saved version, will be discarded if yes is selected.</p>
+							<ul class="uk-switcher uk-margin uk-background-muted uk-padding">
+							    <li class="uk-flex uk-flex-center">
+							    	<div class="uk-card uk-card-default uk-card-body" style="width: 400px;height: 768px; overflow-y: scroll; overflow-x: hidden;">
+							    		<h3 class="uk-text-center uk-text-bold uk-h3 uk-text-muted">Mobile Preview</h3>
+							    	</div>
+							    </li>
+							    <li class="uk-flex uk-flex-center">
+							    	<div class="uk-card uk-card-default uk-card-body" style="width: 1280px; height: 768px; overflow-y: scroll; overflow-x: hidden;">
+							    		<h3 class="uk-text-center uk-text-bold uk-h3 uk-text-muted">Desktop Preview</h3>
+							    	</div>
+							    </li>
+							    <li class="uk-flex uk-flex-center">
+							    	<div class="uk-card uk-card-default uk-card-body" style="width: 768px; height: 1024px; overflow-y: scroll; overflow-x: hidden;">
+							    		<h3 class="uk-text-center uk-text-bold uk-h3 uk-text-muted">Tablet Preview</h3>
+							    	</div>
+							    </li>
+							</ul>
+				        </div>
+				    </div>
+				</div>
+				<!-- end model -->
 
-				        <div class="uk-grid uk-grid-small uk-margin-small">
-				        	<div class="uk-width-3-5">
-				        		<button class="uk-button uk-button-danger w100">Yes, cancel</button>
-				        	</div>
-				        	<div class="uk-width-2-5">
-				        		<button class="uk-button uk-button-default w100 uk-modal-close">No</button>
+				<!-- uk-model -->
+				<div id="modal-properties" uk-modal>
+				    <div class="uk-modal-dialog uk-modal-body uk-position-relative uk-width-xxlarge">
+				    	<button class="uk-modal-close uk-position-top-right uk-position-small" type="button" uk-close></button>
+				        <div class="uk-modal-body uk-padding-small">
+				        	<div class="uk-grid-divider uk-grid-match" uk-grid>
+				        		<div class="uk-width-1-2">
+				        			<div class="uk-height-1-2">
+				        				<div class="uk-card uk-card-default uk-card-body uk-padding-small">
+				        					<table class="uk-table">
+				        						<tr>
+				        							<td class="uk-width-1-2">Collection ID</td>
+				        							<td class="uk-width-1-2 uk-text-bold">3415887</td>
+				        						</tr>
+				        						<tr>
+				        							<td class="uk-width-1-2">Created at</td>
+				        							<td class="uk-width-1-2 uk-text-bold">03:45 AM 23-02-2020</td>
+				        						</tr>
+				        					</table>
+				        				</div>
+				        			</div>
+				        			<div class="uk-height-1-2 uk-margin-top">
+				        				<div class="uk-card uk-card-default uk-card-body uk-padding-small">
+				        					<h4 class="uk-h5 uk-margin-remove uk-border-bottom pb10"><span class="uk-text-normal">Sorters Connected</span> <span class="uk-margin-left uk-text-bold">8</span></h4>
+
+				        					<div class="uk-margin-top">
+				        						<a href="" class="uk-button uk-button-default uk-button-small uk-margin-small">Home Page ATF - 234</a>
+				        						<a href="" class="uk-button uk-button-default uk-button-small uk-margin-small">Home Page ATF - 234</a>
+				        						<a href="" class="uk-button uk-button-default uk-button-small uk-margin-small">Home Page ATF - 234</a>
+				        						<a href="" class="uk-button uk-button-default uk-button-small uk-margin-small">Home Page ATF - 234</a>
+				        						<a href="" class="uk-button uk-button-default uk-button-small uk-margin-small">Home Page ATF - 234</a>
+				        						<a href="" class="uk-button uk-button-default uk-button-small uk-margin-small">Home Page ATF - 234</a>
+				        					</div>
+				        				</div>
+				        			</div>
+				        		</div>
+				        		<div class="uk-width-1-2">
+				        			<div class="uk-card uk-card-default uk-card-body uk-padding-small">
+				        				<h4 class="uk-h5 uk-text-bold">Activity Stream</h4>
+				        				<div class="uk-margin-top">
+				        					<ul class="timeline uk-text-small">
+				        						<li>
+				        							<div><strong>Ratul Sarkar</strong>, modified collection configuration</div>
+				        							<div class="uk-text-muted">02:45 PM 23-03-2020</div>
+				        						</li>
+				        						<li>
+				        							<div><strong>Ratul Sarkar</strong>, modified collection configuration</div>
+				        							<div class="uk-text-muted">02:45 PM 23-03-2020</div>
+				        						</li>
+				        						<li>
+				        							<div><strong>Ratul Sarkar</strong>, modified collection configuration</div>
+				        							<div class="uk-text-muted">02:45 PM 23-03-2020</div>
+				        						</li>
+				        						<li>
+				        							<div><strong>Ratul Sarkar</strong>, modified collection configuration</div>
+				        							<div class="uk-text-muted">02:45 PM 23-03-2020</div>
+				        						</li>
+				        						<li>
+				        							<div><strong>Ratul Sarkar</strong>, modified collection configuration</div>
+				        							<div class="uk-text-muted">02:45 PM 23-03-2020</div>
+				        						</li>
+				        						<li>
+				        							<div><strong>Ratul Sarkar</strong>, modified collection configuration</div>
+				        							<div class="uk-text-muted">02:45 PM 23-03-2020</div>
+				        						</li>
+				        						<li>
+				        							<div><strong>Ratul Sarkar</strong>, modified collection configuration</div>
+				        							<div class="uk-text-muted">02:45 PM 23-03-2020</div>
+				        						</li>
+				        					</ul>
+				        				</div>
+				        			</div>
+				        		</div>
 				        	</div>
 				        </div>
 				    </div>
